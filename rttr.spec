@@ -40,9 +40,7 @@ Summary:	API documentation for %{name} library
 Summary(pl.UTF-8):	Dokumentacja API biblioteki %{name}
 Group:		Documentation
 # if not arch-dependent
-%if "%{_rpmversion}" >= "4.6"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 API documentation for %{name} library.
